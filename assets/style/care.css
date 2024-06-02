@@ -1,0 +1,29 @@
+body, html{
+    height: 100%;
+}
+#farm_care{
+    width: 100%;
+    margin: 100px auto;
+}
+.farm_img{
+    background-image: url(../media/site/8.jpg);
+    min-height: 450px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width:700px){
+    .container3{
+        grid-template-columns: 1fr;
+    }
+    .box{
+        margin: 10px 0;
+    }
+    .farm_img img{
+        margin: 10px 0;
+    }
+
+}

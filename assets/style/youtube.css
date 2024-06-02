@@ -1,0 +1,21 @@
+#featured_youtube{
+    width: var(--width);
+    max-width: var(--max-width);
+    margin: 80px auto;
+}
+#featured_youtube h2{
+    max-width: 500px;
+    width: 90%;
+    margin-left: 2%;
+    font-size: var(--font);
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    background-color: var(--color3);
+    box-shadow: var(--color2) -10px 10px;
+    border: var(--color1) solid 2px;
+    border-radius: 2px;
+}
+#featured_youtube iframe{
+    width: 100%;
+    min-height: 400px;
+}

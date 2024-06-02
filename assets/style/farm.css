@@ -1,0 +1,32 @@
+#our_farm{
+    margin: 120px 0 0;
+    width: 100%;
+    position: relative;
+    /* border: var(--color2) 20px solid; */
+}
+#our_farm img{
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+}
+#our_farm h2{
+    width: 150px;
+    font-size: var(--font);
+    position: absolute;
+    left: 45%;
+    top: -30px;
+    padding: 5px 10px;
+    background-color: var(--color3);
+    border: 2px solid var(--color1);
+    box-shadow: var(--color2) -10px 10px;
+}
+
+@media screen and (max-width: 850px){
+
+    #our_farm h2{
+        left: 40%;
+    }
+    #our_farm img{
+        min-height: 300px;
+    }
+}
